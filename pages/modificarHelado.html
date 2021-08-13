@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Helados</title>
+  </head>
+  <body>
+      <h1>Modificar un helado</h1>
+      <div class="contenedor-helados" id="contenedor-helados"></div>
+      <form>
+        <label for="nombre-helado">
+          Nombre del Helado:
+          <input type="text" name="nombre-helado" id="nombre-helado" />
+        </label>
+  
+        <label for="sabor-helado">
+          Sabor del Helado:
+          <input type="text" name="sabor-helado" id="sabor-helado" />
+        </label>
+  
+        <label for="cantidad-helado">
+          Cantidad en inventario:
+          <input type="number" name="cantidad-helado" id="cantidad-helado" />
+        </label>
+  
+        <label for="precio-helado">
+          Precio:
+          <input type="number" name="precio-helado" id="precio-helado" />
+        </label>
+  
+        <button type="submit">Modificar</button>
+      </form>
+    </body>
+    <script src="../scripts/modificarHelado.js"></script>
+  </body>
+</html>
